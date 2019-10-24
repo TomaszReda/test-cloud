@@ -8,13 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigClientController {
-
     @Value("${info.property}")
     private String property;
-
     @GetMapping("/message")
     String property() {
         return property;
     }
-
 }
