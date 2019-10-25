@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RefreshScope
+//@RefreshScope
 public class ConfigClientController {
-    @Value("${info.property}")
+//    @Value("${info.property}")
     private String property;
     @GetMapping("/message")
     String property() {
