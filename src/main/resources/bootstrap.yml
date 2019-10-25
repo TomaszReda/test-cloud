@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: test-cloud
+  cloud:
+    config:
+      uri: http://localhost:8881/
