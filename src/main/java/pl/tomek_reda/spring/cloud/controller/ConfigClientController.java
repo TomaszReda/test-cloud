@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
-    @Value("${message:Hello default}")
+    @Value("${message:Hello defaultssssss}")
     private String message;
 
     @RequestMapping("/message")
